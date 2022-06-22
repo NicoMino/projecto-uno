@@ -1,0 +1,112 @@
+		body{
+			margin:0;
+			background:blue;
+		}
+
+		.title{
+			
+			height:120px;
+			background:yellow;
+			font: bold 80px verdana;
+			color:black;
+		
+			text-align:center;
+		
+		}
+
+
+		header nav{
+			display:flex;
+			flex-flow:row nowrap;
+			background:blue;
+			justify-content:center;
+			align-items:center;
+			position:sticky;
+			
+		}
+
+		nav div{
+			border: 3px solid red;
+			background:gray;
+			flex-grow:1;
+			
+			padding: 10px 0;
+			text-align:center;
+			font-size:25px;
+			font-weight:bold;
+			color:rgb(255, 255, 255);
+			font-family:Arial;
+			position:sticky;
+			
+		}
+
+
+
+
+		footer{
+			
+			height:100px;
+			background:black;
+			margin-top:30px;
+		}
+		
+			
+		.container{
+			
+			display:flex;
+			flex-direction:row;
+			justify-content:space-between;
+		}
+		
+		
+
+		
+		.container{
+			display:flex;
+			flex-direction:row;
+			justify-content:space-between;
+		
+		}
+		
+		.container .a-l{
+			background:fuchsia;
+			height:1000px;
+			width:200px;
+			margin-right:20px;
+		}
+		
+		.container .a-r{
+			background:red;
+			height:1000px;
+			width:200px;
+			margin-left:20px;
+		}
+		
+		.container .art{
+			background:rgb(150,150,150);
+			height:1000px;
+			width:500px;
+			flex-grow:1;
+		}
+		
+		
+		
+		.supercontainer .conteiner2{
+			display:flex;
+			flex-direction:column;
+			justify-content:center;
+		}
+		
+		
+		
+		.conteiner2 .recomend{
+			height:300px;
+			background:gray;
+			margin:10px 220px;
+		}
+		
+		.conteiner2 .comments{
+			height:800px;
+			background:gray;
+			margin:10px 220px;
+		}
